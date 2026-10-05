@@ -1,0 +1,18 @@
+задание: 1.3.2
+проект: 131-hello-usb
+устройство: 2e8a:000a
+серийный номер: E6635898637DB42C
+порт: COM3
+начало: 2026-10-05T17:32:55
+   0.607 <-- Hello, World
+   1.607 <-- Hello, World
+   2.606 <-- Hello, World
+   3.607 <-- Hello, World
+   4.607 <-- Hello, World
+   5.607 <-- Hello, World
+   6.607 <-- Hello, World
+   7.607 <-- Hello, World
+   8.607 <-- Hello, World
+   9.607 <-- Hello, World
+  10.607 <-- Hello, World
+итог: принято строк 11 за 10.0 с
