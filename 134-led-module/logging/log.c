@@ -1,4 +1,4 @@
-#include "logging/log.h"
+#include "log.h"
 
 void log_version(void)
 {
@@ -6,3 +6,7 @@ void log_version(void)
            DEVICE_NAME, FIRMWARE_VERSION, __DATE__, __TIME__, LOG_LEVEL);
 }
 
+void log_prefix(const char *level, const char *function, int line)
+{
+    printf("%s %s:%d ", level, function, line);
+}
