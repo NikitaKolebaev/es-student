@@ -15,8 +15,8 @@ add_executable(${PROJECT_NAME}
 )
 
 target_link_libraries(${PROJECT_NAME} PRIVATE
-    pico_stdlib
     ${CMAKE_CURRENT_SOURCE_DIR}/led
+    pico_stdlib
 )
 
 pico_set_linker_script(${PROJECT_NAME}
