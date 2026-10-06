@@ -3,17 +3,17 @@
 устройство: 2e8a:000a
 серийный номер: E6635898637DB42C
 порт: COM3
-начало: 2026-10-06T23:21:10
+начало: 2026-10-06T23:25:36
    0.000 --> v
-   0.021 <-- inf main:62 got v
-   0.022 <-- device: es-led-module 1.0.0, built Oct  6 2026 23:19:34, log level 3
-   1.029 --> e
-   1.041 <-- inf main:62 got e
-   1.041 <-- inf handle_command:19 led on
-   2.045 --> d
-   2.061 <-- inf main:62 got d
-   2.062 <-- inf handle_command:23 led off
-   3.062 --> q
-   3.082 <-- inf main:62 got q
-   3.082 <-- inf handle_command:29 unknown command: q
+   0.009 <-- dbg main:62 got v
+   0.010 <-- device: es-led-module 1.0.0, built Oct  6 2026 23:24:55, log level 3
+   1.017 --> e
+   1.029 <-- dbg main:62 got e
+   1.030 <-- inf handle_command:19 led on
+   2.031 --> d
+   2.050 <-- dbg main:62 got d
+   2.050 <-- inf handle_command:23 led off
+   3.064 --> q
+   3.070 <-- dbg main:62 got q
+   3.071 <-- err handle_command:29 unknown command: q
 итог: отправлено команд 4
