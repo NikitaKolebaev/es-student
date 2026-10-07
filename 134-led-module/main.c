@@ -1,4 +1,5 @@
 #include "led.h"
+#include "device.h"
 #include "log.h"
 
 const uint BUTTON_PIN = 15;
@@ -24,6 +25,9 @@ void handle_command(int command)
     }
     else if (command == 'v'){
         log_version();
+    }
+    else if (command == 'i'){
+        device_info();
     }
     else{
         LOG_ERR("unknown command: %c\n", command);
